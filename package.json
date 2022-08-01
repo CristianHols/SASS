@@ -4,22 +4,23 @@
     "nodemon": "^2.0.19"
   },
   "name": "desafio-sass",
-  "description": "",
+  "description": "Desafio SASS",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sas --include-path scss scss/main.scss css/main.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\"" 
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CristianHols/SASS.git"
   },
-  "author": "",
+  "author": "Cristian Holsbach",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CristianHols/SASS/issues"
   },
-  "homepage": "https://github.com/CristianHols/SASS#readme"
+  "homepage": "https://github.com/CristianHols/SASS#readme",
+  "devDependencies": {}
 }
