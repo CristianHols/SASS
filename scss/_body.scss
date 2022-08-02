@@ -20,15 +20,24 @@ h1{
         padding: 2rem;
 }
 
-div{
-    margin-top: 2rem;
-    
+div{    
     .card{
                 background-image: $colorfondo;
                 padding: 1rem;
                 margin-left: 3rem;
                 margin-right: 3rem;
-    }
+            }
+
+                h5{
+                    color: $colortit;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+
+                p{
+                    color:$colortxt;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-weight: 300;
+                }
 }
 
 
